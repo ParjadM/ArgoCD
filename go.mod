@@ -1,6 +1,7 @@
 module github.com/argoproj/argo-cd/v2
 
 go 1.22.0
+toolchain go1.22.10
 
 require (
 	code.gitea.io/sdk/gitea v0.19.0
@@ -79,7 +80,7 @@ require (
 	github.com/valyala/fasttemplate v1.2.2
 	github.com/xanzy/go-gitlab v0.114.0
 	github.com/yuin/gopher-lua v1.1.1
-	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.56.0
+	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.57.0
 	go.opentelemetry.io/otel v1.32.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.32.0
 	go.opentelemetry.io/otel/sdk v1.32.0
